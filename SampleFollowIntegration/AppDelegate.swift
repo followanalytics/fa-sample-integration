@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FAFollowAppsDelegate, UNU
         FAFollowApps.sharedFA().followAppsDelegate = self
         
         /*
-         If you use notification in your application you have listen to the notification center delegate.
+         If you use notification in your application you have to listen to the notification center delegate.
          */
         UNUserNotificationCenter.current().delegate = self
         
@@ -109,6 +109,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FAFollowAppsDelegate, UNU
         FAFollowApps.sharedFA().application(application, didReceiveRemoteNotification: userInfo)
     }
     
+    func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
+        FAFollowApps.sharedFA().application(application, didReceive: notification)
+    }
+    
     // Here for the open Url. (App Link)
     
     func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
@@ -117,6 +121,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FAFollowAppsDelegate, UNU
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
       return FAFollowApps.sharedFA().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+    }
+    
+    
+    
+    /*
+        These methodes are optional protocol called by Follow
+     */
+    
+    // If you used category with your notification, please register them here.
+    func followAppsRegisterNotificationCategories() {
+        
+    }
+    
+    // If you are using Key/Value with campaign, you fill find these here.
+    func followAppsShouldHandleParameters(_ customParameters: [AnyHashable : Any]?, actionIdentifier: String?, actionTitle: String?, completionHandler: (() -> Void)? = nil) {
+        
+    }
+    
+    // If you need to delay the call to openUrl (clic on notification) implement these methode.
+    func followAppsNotificationHandleOpenURL(completion completionOpenUrl: @escaping () -> Void) {
+        
+        //call the completionOpenUrl when your app is ready to execute the openUrl.
+        completionOpenUrl()
     }
 
 

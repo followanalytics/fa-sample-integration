@@ -7,63 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7779A3F0EE46C95E74863772234C6C7C /* Pods-SampleFollowIntegration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30757FF90A833D21BC8C93EF535E6AA9 /* Pods-SampleFollowIntegration-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A16C387A7C745E17A490424A33E2E821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E37770F90C3B798001DE1C7DB197B415 /* Pods-SampleFollowIntegration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EF4691CF5E8613BB47D158A4EBC3CC /* Pods-SampleFollowIntegration-dummy.m */; };
+		02D9982E23A315C5BEF6AEA2731C86D3 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF4333183CEDC5466391477F4FF09AB /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06791AF9FBDF12257F5369063CAB02FA /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 69F3D1D1C330489EB58ECCED46610A1E /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		136C489F6BB55F5D2153043A6AA9EDFB /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = EB26B0CFFEEE1FA3B263F3E71C9ABB03 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13B4EFD371ABA96E8886BAB6F5B50EF0 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D8819D2D1F7D26C7D8849FD4CF928A1 /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F0CBF534D53B5F5C718B423664A750F /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED8D6CC5AA0EFB7CC719E18F2EA5F01 /* SSZipArchive-dummy.m */; };
+		20A2F95DCC9339A9F56F53604E216DFC /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 82A8575F7BF3C2687FAF839C42133952 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		240236F354E90E7CA5DC5C7AE4BEC68F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = ADAC597C342C3DEC1DBF4776BFA98AA1 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		292F20D9AA18ADF430780FC4C5B4B8D1 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 77565B74AB05C770FB915A43C2358D92 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C55EDD1E877F60C2748C8EB639E01C9 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A37471B005836A5205CD236BE6D7062 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32B58F0D08A6237F26B59C34E11208E8 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = D735814D8B5A6C765F18E616777819E9 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		360C8A5AF6861E32AE5CE7F4498F7E16 /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C9975381A37A1A99FCC10847A70D0A3 /* ioapi_buf.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3DB5CE359ADBA7615C7F877BC88784D9 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 0341B5EA851F5C22176AD98806F97175 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41932E284CD59D52C6E067636CC3EB85 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8013E9DC546E1C4DC512AC2EA8B958F3 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D4A49CB2A295BEF211C29794E2E45A /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF4C6070D7EDF9777322213AA5EB034 /* ioapi_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46ECD47B85A0709989D7DED361B458DE /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = F618315A1F9FC2472978534DA7C9FA67 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48257F2E9192971E4732E7D713354978 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0957FE3918E22E095E648377429D9D2A /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D336CCDF9DF4A81D5F36F314B053251 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CB13DD911B27197D7F156CC74C0C3C /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F03A58D65D81C263CD5FD7750E5C5F5 /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF9994CB889226EB8DAD056685ACB0 /* aes_ni.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63B409261368C9A499936749B2AECD85 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA18292B0C036A17130D15A9E26DF5F /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		655310037252A1C00234A91E7D164500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74DCBE28D633938CE4E4FA027B43055B /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7566CB06729583B0C68E7709E0E78E0 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777CE20DAB0D73688FD0DDF131AAEA49 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FEBED6BA777822BD5FA31DFCCB1461 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5431239A6A2A410B210A497880E9D2 /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9B1DBFB0BEF0CC2628C083C356A1D0 /* aes_ni.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85EF657FE888790CD5D9B93B39CB312B /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 84825E374080BA6867A653C93291CAD2 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87FC711B2EB6C7D3B3819A0FFD3D038E /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = F66F84923EAC62E832DFE85F2EE6B614 /* minishared.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A6F8E5901BA78709BC9B26547107A57 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BF3B127836409238033556492775AD /* ioapi_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D9858FEC42C9E05D23B17D76CEB37CB /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = C12FFA7B2EE740D8A028E70734EAFAF7 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E6E65CD9DECE8DDFF255831A9824351 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FE83245E1486DC75CA148E5892CB2 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9EAF56641CC9A24406AC99AC053EE425 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = D787C1B6596000E560F66B52CD07CCF2 /* ioapi_mem.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A47878ADCFE3EF32FE3B4C6C6FFF7D94 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD4FC98099FBF6C59BA29344E316951 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A748331615F2FE7A7C51801AC62D7166 /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B33F9FA7C33C8AA95500F4722E35669 /* minishared.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9B82F45840E4E49869B355AEC5FBF13 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 211BD4615BB8F292C06AFF6C341B5C82 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B024CABA607B9525135BCEBF5E19CF94 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F62D44751DDB13B06F0B9309F7978 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B55539A412E1C79EB4E57FC38F6F6FA7 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = F91C85C8327E83F92789D041AF06E298 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA4EB986721F4C1FEBE4892E5AC64B30 /* Pods-SampleFollowIntegration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30757FF90A833D21BC8C93EF535E6AA9 /* Pods-SampleFollowIntegration-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFCD2F3CCB11EC662CE4B8FCE53DACA8 /* Pods-SampleFollowIntegration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EF4691CF5E8613BB47D158A4EBC3CC /* Pods-SampleFollowIntegration-dummy.m */; };
+		C0A4B4785DE67D1ECE13BF88979344C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C56F1416C564F1AEF08B42FA572965BB /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBD3378DCA1C72AC003B15F3BF022FE /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE1C20DE49BA5BB33F695609A9EB3AEA /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = E497F4814275ED61F016B12F32167321 /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6C9C061090D70DE0098AE078394F201 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B221ED8CA028027864FC0BBB38F4BDD /* crypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E32F5A30B778CDE72CF33D2D1E6FEE76 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 29B52991BED6460CAB34E68A8D3673BF /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC611823268B862B6857A0C72E8FEBD8 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = FD469127AA8385AF2EA632B450AC24CB /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDF0D008463FF1DBDDCBE4705C68920F /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = EAC1FA52E4C328366B414FE6ECEC4314 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4ECB68B6B1C6C17D123E0FA29E1EB73 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = C2160F702B9BED242B028674831EB0C3 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9205B0AB42C7EE3356E28D857247F8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D1EFCAF3F6FFB1E2BAE67B63605F370;
+			remoteInfo = SSZipArchive;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0341B5EA851F5C22176AD98806F97175 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/minizip/aes/hmac.h; sourceTree = "<group>"; };
+		07EC15182B5BFF8757F05742218EE862 /* Pods_SampleFollowIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleFollowIntegration.framework; path = "Pods-SampleFollowIntegration.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0957FE3918E22E095E648377429D9D2A /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		0C9975381A37A1A99FCC10847A70D0A3 /* ioapi_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_buf.c; path = SSZipArchive/minizip/ioapi_buf.c; sourceTree = "<group>"; };
+		0ED8D6CC5AA0EFB7CC719E18F2EA5F01 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		175C42BDDDCF02980A3D766C66AE81BC /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		1A37471B005836A5205CD236BE6D7062 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
 		1B805A19D15CC59C79D88766D6522087 /* Pods-SampleFollowIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleFollowIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		1D8819D2D1F7D26C7D8849FD4CF928A1 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/minizip/aes/aeskey.c; sourceTree = "<group>"; };
+		211BD4615BB8F292C06AFF6C341B5C82 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		22CB13DD911B27197D7F156CC74C0C3C /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
 		254392DE42630F509A07689C05F8FE34 /* Pods-SampleFollowIntegration-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleFollowIntegration-resources.sh"; sourceTree = "<group>"; };
+		29B52991BED6460CAB34E68A8D3673BF /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/minizip/aes/sha1.c; sourceTree = "<group>"; };
+		2D9B1DBFB0BEF0CC2628C083C356A1D0 /* aes_ni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ni.h; path = SSZipArchive/minizip/aes/aes_ni.h; sourceTree = "<group>"; };
 		30757FF90A833D21BC8C93EF535E6AA9 /* Pods-SampleFollowIntegration-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleFollowIntegration-umbrella.h"; sourceTree = "<group>"; };
+		30BF3B127836409238033556492775AD /* ioapi_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_mem.h; path = SSZipArchive/minizip/ioapi_mem.h; sourceTree = "<group>"; };
 		31F16FC1E166C4EF1329CF43A0A63BEF /* Pods-SampleFollowIntegration-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleFollowIntegration-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39795542BA8CBFFFF1449B81A714E592 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A4D9EA606C90DC211D891D02C0B048C /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/Settings.bundle; sourceTree = "<group>"; };
-		3E17738F99F59E7B0078BE0AEAD35EFC /* FAFollowApps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAFollowApps.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAFollowApps.h; sourceTree = "<group>"; };
+		3A9F62D44751DDB13B06F0B9309F7978 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/minizip/aes/aescrypt.c; sourceTree = "<group>"; };
+		3B221ED8CA028027864FC0BBB38F4BDD /* crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypt.c; path = SSZipArchive/minizip/crypt.c; sourceTree = "<group>"; };
+		456C33EACD268BB618311F3B07FA5D42 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/Settings.bundle; sourceTree = "<group>"; };
 		47E206186438756A3E50DB44B1F18884 /* Pods-SampleFollowIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleFollowIntegration.release.xcconfig"; sourceTree = "<group>"; };
-		490B4B2ACEAA1A333586E50F47087B2A /* FAMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAMessage.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAMessage.h; sourceTree = "<group>"; };
+		5064786C516719D1FB4ECE5B3760E49E /* FollowApps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FollowApps.framework; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework; sourceTree = "<group>"; };
 		51A91C59A218EA0B0EB5D9DEB21315F1 /* Pods-SampleFollowIntegration-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleFollowIntegration-frameworks.sh"; sourceTree = "<group>"; };
-		55D14A7DACC06A7A0857EB3003E75F1E /* FAFollowApps-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FAFollowApps-Bridging-Header.h"; path = "followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAFollowApps-Bridging-Header.h"; sourceTree = "<group>"; };
+		5769ED9FD8C24FB0EB42B886A829B460 /* FAMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAMessage.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAMessage.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69F3D1D1C330489EB58ECCED46610A1E /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		6B33F9FA7C33C8AA95500F4722E35669 /* minishared.c */ = {isa = PBXFileReference; includeInIndex = 1; name = minishared.c; path = SSZipArchive/minizip/minishared.c; sourceTree = "<group>"; };
+		6F0CA059C239CF83F1235EAF6517532E /* UnityBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityBridge.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/UnityBridge.h; sourceTree = "<group>"; };
 		73EFABAC8B7F3656923EE4CCCBDBBD27 /* Pods-SampleFollowIntegration.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SampleFollowIntegration.modulemap"; sourceTree = "<group>"; };
+		77565B74AB05C770FB915A43C2358D92 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
 		7B9A37A93347717D49ACE18E96C60472 /* Pods-SampleFollowIntegration-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleFollowIntegration-acknowledgements.plist"; sourceTree = "<group>"; };
-		7BBB76C6AB1500E524DEF014DF59F50D /* FollowApps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FollowApps.framework; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework; sourceTree = "<group>"; };
-		80CE143FA3D2B9B281B804E2C7C35C47 /* FAPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAPush.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAPush.h; sourceTree = "<group>"; };
+		7C94F2AA3C2B1874FB38E6D32F37394C /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		8013E9DC546E1C4DC512AC2EA8B958F3 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		82A8575F7BF3C2687FAF839C42133952 /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prng.c; path = SSZipArchive/minizip/aes/prng.c; sourceTree = "<group>"; };
+		84825E374080BA6867A653C93291CAD2 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/minizip/aes/aestab.h; sourceTree = "<group>"; };
+		8C7FE83245E1486DC75CA148E5892CB2 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		8DAF9994CB889226EB8DAD056685ACB0 /* aes_ni.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aes_ni.c; path = SSZipArchive/minizip/aes/aes_ni.c; sourceTree = "<group>"; };
+		90695351FED4365068FE4E9397CC97DD /* FAEmbeddedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAEmbeddedView.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAEmbeddedView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A2D698D34CB1A1BA3D62E54BB48B2DC /* FAEmbeddedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAEmbeddedView.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAEmbeddedView.h; sourceTree = "<group>"; };
-		C9C177FBB248B91897C54EB6E2475F15 /* Pods_SampleFollowIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleFollowIntegration.framework; path = "Pods-SampleFollowIntegration.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2CEB1B016C592535B84AA62064DD486 /* FABadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABadge.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FABadge.h; sourceTree = "<group>"; };
-		DB74E8E4C4E25263190F3A2D9D2BB535 /* FAInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAInbox.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAInbox.h; sourceTree = "<group>"; };
+		9725B0AAC2791FC93F872FB0CDA2CBF0 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		9BBD3378DCA1C72AC003B15F3BF022FE /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/minizip/aes/prng.h; sourceTree = "<group>"; };
+		ADAC597C342C3DEC1DBF4776BFA98AA1 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		AFD4FC98099FBF6C59BA29344E316951 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/minizip/aes/brg_endian.h; sourceTree = "<group>"; };
+		B4A7BC85ED83D83BDD8539F746F2D838 /* FAFollowApps-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FAFollowApps-Bridging-Header.h"; path = "followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAFollowApps-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFF4333183CEDC5466391477F4FF09AB /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/minizip/aes/aes.h; sourceTree = "<group>"; };
+		C12FFA7B2EE740D8A028E70734EAFAF7 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/minizip/aes/brg_types.h; sourceTree = "<group>"; };
+		C2160F702B9BED242B028674831EB0C3 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/minizip/aes/fileenc.h; sourceTree = "<group>"; };
+		CFC739D41B4A1232BD5015A12BCF51C4 /* FAInApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAInApp.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAInApp.h; sourceTree = "<group>"; };
+		CFC93C133366BE14F3E3758CA232172F /* FABadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABadge.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FABadge.h; sourceTree = "<group>"; };
+		D6C4AEE983D03A5D6EEDD31AEF5276FB /* FAFollowApps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAFollowApps.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAFollowApps.h; sourceTree = "<group>"; };
+		D735814D8B5A6C765F18E616777819E9 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/minizip/aes/pwd2key.c; sourceTree = "<group>"; };
+		D787C1B6596000E560F66B52CD07CCF2 /* ioapi_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_mem.c; path = SSZipArchive/minizip/ioapi_mem.c; sourceTree = "<group>"; };
+		DC6557A859F0FD47C1E33F7168D8CD65 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EF4691CF5E8613BB47D158A4EBC3CC /* Pods-SampleFollowIntegration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleFollowIntegration-dummy.m"; sourceTree = "<group>"; };
-		F7D0B6F9665102B85C102E6E95A87694 /* FAInApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAInApp.h; path = followapps_iOS_SDK_5.0.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAInApp.h; sourceTree = "<group>"; };
+		E3FEBED6BA777822BD5FA31DFCCB1461 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		E497F4814275ED61F016B12F32167321 /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/minizip/aes/aesopt.h; sourceTree = "<group>"; };
+		E7566CB06729583B0C68E7709E0E78E0 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		EAC1FA52E4C328366B414FE6ECEC4314 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/minizip/aes/hmac.c; sourceTree = "<group>"; };
+		EB26B0CFFEEE1FA3B263F3E71C9ABB03 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/minizip/aes/aestab.c; sourceTree = "<group>"; };
+		EDA7FF98A549508B4BD8CCEC58CED58F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F618315A1F9FC2472978534DA7C9FA67 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/minizip/aes/sha1.h; sourceTree = "<group>"; };
+		F66F84923EAC62E832DFE85F2EE6B614 /* minishared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = minishared.h; path = SSZipArchive/minizip/minishared.h; sourceTree = "<group>"; };
+		F91C85C8327E83F92789D041AF06E298 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/minizip/aes/fileenc.c; sourceTree = "<group>"; };
+		FCB112D1080469787B55FA2832FBBF63 /* FAPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAPush.h; path = followapps_iOS_SDK_5.2.2/Pod/FollowApps/FollowApps.framework/Versions/A/Headers/FAPush.h; sourceTree = "<group>"; };
+		FD469127AA8385AF2EA632B450AC24CB /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		FDF4C6070D7EDF9777322213AA5EB034 /* ioapi_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_buf.h; path = SSZipArchive/minizip/ioapi_buf.h; sourceTree = "<group>"; };
+		FFA18292B0C036A17130D15A9E26DF5F /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/minizip/aes/pwd2key.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81A29AC83BE229AE93CC34B7ED78F01F /* Frameworks */ = {
+		0CEEC16E405F05AF344FCCD37A8E584C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16C387A7C745E17A490424A33E2E821 /* Foundation.framework in Frameworks */,
+				C0A4B4785DE67D1ECE13BF88979344C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28A48530BCED260D9F11FCECA4BD171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655310037252A1C00234A91E7D164500 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B7C4CEAC9F0C0F09D0D67C2E5CAB6B8 /* Pods */ = {
+		4EAFE1CE0A6CD2F941B5A6A26FC7FFDA /* FollowApps */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A83DE38A718028DAF44F731511D7D /* FollowApps */,
+				8D0ABBFBC8DE9E2F8FC4889711CF2A84 /* Frameworks */,
+				9E1848AF8462263FFA47486A58D5C8FC /* Resources */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		33420CC04FA62799CFC7FBE1B40AF813 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C9C177FBB248B91897C54EB6E2475F15 /* Pods_SampleFollowIntegration.framework */,
-			);
-			name = Products;
+			name = FollowApps;
+			path = FollowApps;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -71,28 +169,48 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2B7C4CEAC9F0C0F09D0D67C2E5CAB6B8 /* Pods */,
-				33420CC04FA62799CFC7FBE1B40AF813 /* Products */,
+				E17C1864187203C70AAC50BB38317A8B /* Pods */,
+				CEC367EB7D468C756D8DBC0873639A07 /* Products */,
 				B02F4BC4F88D718A156B9163FD0EB735 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9A4ABF19F70E7FA0FBCA2451ED6B2A59 /* Frameworks */ = {
+		87184FF56CCC7D3E0148577706EDD56D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7BBB76C6AB1500E524DEF014DF59F50D /* FollowApps.framework */,
+				EDA7FF98A549508B4BD8CCEC58CED58F /* Info.plist */,
+				175C42BDDDCF02980A3D766C66AE81BC /* SSZipArchive.modulemap */,
+				9725B0AAC2791FC93F872FB0CDA2CBF0 /* SSZipArchive.xcconfig */,
+				0ED8D6CC5AA0EFB7CC719E18F2EA5F01 /* SSZipArchive-dummy.m */,
+				7C94F2AA3C2B1874FB38E6D32F37394C /* SSZipArchive-prefix.pch */,
+				E7566CB06729583B0C68E7709E0E78E0 /* SSZipArchive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		8D0ABBFBC8DE9E2F8FC4889711CF2A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5064786C516719D1FB4ECE5B3760E49E /* FollowApps.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AA8A83DE38A718028DAF44F731511D7D /* FollowApps */ = {
+		9E1848AF8462263FFA47486A58D5C8FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9A4ABF19F70E7FA0FBCA2451ED6B2A59 /* Frameworks */,
-				BACDE8C544928C52DAB35358B1E4374C /* Resources */,
+				CFC93C133366BE14F3E3758CA232172F /* FABadge.h */,
+				90695351FED4365068FE4E9397CC97DD /* FAEmbeddedView.h */,
+				D6C4AEE983D03A5D6EEDD31AEF5276FB /* FAFollowApps.h */,
+				B4A7BC85ED83D83BDD8539F746F2D838 /* FAFollowApps-Bridging-Header.h */,
+				CFC739D41B4A1232BD5015A12BCF51C4 /* FAInApp.h */,
+				5769ED9FD8C24FB0EB42B886A829B460 /* FAMessage.h */,
+				FCB112D1080469787B55FA2832FBBF63 /* FAPush.h */,
+				456C33EACD268BB618311F3B07FA5D42 /* Settings.bundle */,
+				6F0CA059C239CF83F1235EAF6517532E /* UnityBridge.h */,
 			);
-			name = FollowApps;
-			path = FollowApps;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B02F4BC4F88D718A156B9163FD0EB735 /* Targets Support Files */ = {
@@ -101,22 +219,6 @@
 				BB8AA57F865BEA3DDD001E67929EC795 /* Pods-SampleFollowIntegration */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BACDE8C544928C52DAB35358B1E4374C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D2CEB1B016C592535B84AA62064DD486 /* FABadge.h */,
-				9A2D698D34CB1A1BA3D62E54BB48B2DC /* FAEmbeddedView.h */,
-				3E17738F99F59E7B0078BE0AEAD35EFC /* FAFollowApps.h */,
-				55D14A7DACC06A7A0857EB3003E75F1E /* FAFollowApps-Bridging-Header.h */,
-				F7D0B6F9665102B85C102E6E95A87694 /* FAInApp.h */,
-				DB74E8E4C4E25263190F3A2D9D2BB535 /* FAInbox.h */,
-				490B4B2ACEAA1A333586E50F47087B2A /* FAMessage.h */,
-				80CE143FA3D2B9B281B804E2C7C35C47 /* FAPush.h */,
-				3A4D9EA606C90DC211D891D02C0B048C /* Settings.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		BB8AA57F865BEA3DDD001E67929EC795 /* Pods-SampleFollowIntegration */ = {
@@ -145,6 +247,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CEC367EB7D468C756D8DBC0873639A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EC15182B5BFF8757F05742218EE862 /* Pods_SampleFollowIntegration.framework */,
+				DC6557A859F0FD47C1E33F7168D8CD65 /* SSZipArchive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,35 +264,138 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E17C1864187203C70AAC50BB38317A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFE1CE0A6CD2F941B5A6A26FC7FFDA /* FollowApps */,
+				EAB942163496D37CFEC88796CD3DF41D /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAB942163496D37CFEC88796CD3DF41D /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				BFF4333183CEDC5466391477F4FF09AB /* aes.h */,
+				8DAF9994CB889226EB8DAD056685ACB0 /* aes_ni.c */,
+				2D9B1DBFB0BEF0CC2628C083C356A1D0 /* aes_ni.h */,
+				3A9F62D44751DDB13B06F0B9309F7978 /* aescrypt.c */,
+				1D8819D2D1F7D26C7D8849FD4CF928A1 /* aeskey.c */,
+				E497F4814275ED61F016B12F32167321 /* aesopt.h */,
+				EB26B0CFFEEE1FA3B263F3E71C9ABB03 /* aestab.c */,
+				84825E374080BA6867A653C93291CAD2 /* aestab.h */,
+				AFD4FC98099FBF6C59BA29344E316951 /* brg_endian.h */,
+				C12FFA7B2EE740D8A028E70734EAFAF7 /* brg_types.h */,
+				3B221ED8CA028027864FC0BBB38F4BDD /* crypt.c */,
+				1A37471B005836A5205CD236BE6D7062 /* crypt.h */,
+				F91C85C8327E83F92789D041AF06E298 /* fileenc.c */,
+				C2160F702B9BED242B028674831EB0C3 /* fileenc.h */,
+				EAC1FA52E4C328366B414FE6ECEC4314 /* hmac.c */,
+				0341B5EA851F5C22176AD98806F97175 /* hmac.h */,
+				69F3D1D1C330489EB58ECCED46610A1E /* ioapi.c */,
+				77565B74AB05C770FB915A43C2358D92 /* ioapi.h */,
+				0C9975381A37A1A99FCC10847A70D0A3 /* ioapi_buf.c */,
+				FDF4C6070D7EDF9777322213AA5EB034 /* ioapi_buf.h */,
+				D787C1B6596000E560F66B52CD07CCF2 /* ioapi_mem.c */,
+				30BF3B127836409238033556492775AD /* ioapi_mem.h */,
+				6B33F9FA7C33C8AA95500F4722E35669 /* minishared.c */,
+				F66F84923EAC62E832DFE85F2EE6B614 /* minishared.h */,
+				82A8575F7BF3C2687FAF839C42133952 /* prng.c */,
+				9BBD3378DCA1C72AC003B15F3BF022FE /* prng.h */,
+				D735814D8B5A6C765F18E616777819E9 /* pwd2key.c */,
+				FFA18292B0C036A17130D15A9E26DF5F /* pwd2key.h */,
+				29B52991BED6460CAB34E68A8D3673BF /* sha1.c */,
+				F618315A1F9FC2472978534DA7C9FA67 /* sha1.h */,
+				22CB13DD911B27197D7F156CC74C0C3C /* SSZipArchive.h */,
+				8C7FE83245E1486DC75CA148E5892CB2 /* SSZipArchive.m */,
+				8013E9DC546E1C4DC512AC2EA8B958F3 /* SSZipCommon.h */,
+				ADAC597C342C3DEC1DBF4776BFA98AA1 /* unzip.c */,
+				FD469127AA8385AF2EA632B450AC24CB /* unzip.h */,
+				0957FE3918E22E095E648377429D9D2A /* zip.c */,
+				211BD4615BB8F292C06AFF6C341B5C82 /* zip.h */,
+				E3FEBED6BA777822BD5FA31DFCCB1461 /* ZipArchive.h */,
+				87184FF56CCC7D3E0148577706EDD56D /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		487CE296E85EC62C88693B9DACB52CEE /* Headers */ = {
+		618AD3849CC47CFFD2ABC53D2D8CAA84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7779A3F0EE46C95E74863772234C6C7C /* Pods-SampleFollowIntegration-umbrella.h in Headers */,
+				BA4EB986721F4C1FEBE4892E5AC64B30 /* Pods-SampleFollowIntegration-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A3123CD18085299EB6B6973FFC5727 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D9982E23A315C5BEF6AEA2731C86D3 /* aes.h in Headers */,
+				7F5431239A6A2A410B210A497880E9D2 /* aes_ni.h in Headers */,
+				CE1C20DE49BA5BB33F695609A9EB3AEA /* aesopt.h in Headers */,
+				85EF657FE888790CD5D9B93B39CB312B /* aestab.h in Headers */,
+				A47878ADCFE3EF32FE3B4C6C6FFF7D94 /* brg_endian.h in Headers */,
+				9D9858FEC42C9E05D23B17D76CEB37CB /* brg_types.h in Headers */,
+				2C55EDD1E877F60C2748C8EB639E01C9 /* crypt.h in Headers */,
+				F4ECB68B6B1C6C17D123E0FA29E1EB73 /* fileenc.h in Headers */,
+				3DB5CE359ADBA7615C7F877BC88784D9 /* hmac.h in Headers */,
+				292F20D9AA18ADF430780FC4C5B4B8D1 /* ioapi.h in Headers */,
+				44D4A49CB2A295BEF211C29794E2E45A /* ioapi_buf.h in Headers */,
+				8A6F8E5901BA78709BC9B26547107A57 /* ioapi_mem.h in Headers */,
+				87FC711B2EB6C7D3B3819A0FFD3D038E /* minishared.h in Headers */,
+				C56F1416C564F1AEF08B42FA572965BB /* prng.h in Headers */,
+				63B409261368C9A499936749B2AECD85 /* pwd2key.h in Headers */,
+				46ECD47B85A0709989D7DED361B458DE /* sha1.h in Headers */,
+				74DCBE28D633938CE4E4FA027B43055B /* SSZipArchive-umbrella.h in Headers */,
+				5D336CCDF9DF4A81D5F36F314B053251 /* SSZipArchive.h in Headers */,
+				41932E284CD59D52C6E067636CC3EB85 /* SSZipCommon.h in Headers */,
+				EC611823268B862B6857A0C72E8FEBD8 /* unzip.h in Headers */,
+				A9B82F45840E4E49869B355AEC5FBF13 /* zip.h in Headers */,
+				777CE20DAB0D73688FD0DDF131AAEA49 /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0A8B2EF545F87071ED2BE2C4BEA3E26E /* Pods-SampleFollowIntegration */ = {
+		1230219503E0CA1BA06B6C50BF05DA4B /* Pods-SampleFollowIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E54BF87EF5D74A4B519BC09A5F47BE8 /* Build configuration list for PBXNativeTarget "Pods-SampleFollowIntegration" */;
+			buildConfigurationList = 00C9AB0C5725952A99B8ABCFEE50F4D9 /* Build configuration list for PBXNativeTarget "Pods-SampleFollowIntegration" */;
 			buildPhases = (
-				39AAAAA870BA08B02294CA4F67BD0726 /* Sources */,
-				81A29AC83BE229AE93CC34B7ED78F01F /* Frameworks */,
-				487CE296E85EC62C88693B9DACB52CEE /* Headers */,
+				F274EECCCA994806221ED2229C7C0C8F /* Sources */,
+				0CEEC16E405F05AF344FCCD37A8E584C /* Frameworks */,
+				618AD3849CC47CFFD2ABC53D2D8CAA84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C13B3A16FCBC122CC588BA95709A33 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleFollowIntegration";
+			productName = "Pods-SampleFollowIntegration";
+			productReference = 07EC15182B5BFF8757F05742218EE862 /* Pods_SampleFollowIntegration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D1EFCAF3F6FFB1E2BAE67B63605F370 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BE6D16E33971FC6D0CD147C87BF9A2 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				EE77CBE6EB0770148BF53B2A405447A0 /* Sources */,
+				F28A48530BCED260D9F11FCECA4BD171 /* Frameworks */,
+				B3A3123CD18085299EB6B6973FFC5727 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-SampleFollowIntegration";
-			productName = "Pods-SampleFollowIntegration";
-			productReference = C9C177FBB248B91897C54EB6E2475F15 /* Pods_SampleFollowIntegration.framework */;
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = DC6557A859F0FD47C1E33F7168D8CD65 /* SSZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -201,63 +415,62 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 33420CC04FA62799CFC7FBE1B40AF813 /* Products */;
+			productRefGroup = CEC367EB7D468C756D8DBC0873639A07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A8B2EF545F87071ED2BE2C4BEA3E26E /* Pods-SampleFollowIntegration */,
+				1230219503E0CA1BA06B6C50BF05DA4B /* Pods-SampleFollowIntegration */,
+				6D1EFCAF3F6FFB1E2BAE67B63605F370 /* SSZipArchive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39AAAAA870BA08B02294CA4F67BD0726 /* Sources */ = {
+		EE77CBE6EB0770148BF53B2A405447A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37770F90C3B798001DE1C7DB197B415 /* Pods-SampleFollowIntegration-dummy.m in Sources */,
+				5F03A58D65D81C263CD5FD7750E5C5F5 /* aes_ni.c in Sources */,
+				B024CABA607B9525135BCEBF5E19CF94 /* aescrypt.c in Sources */,
+				13B4EFD371ABA96E8886BAB6F5B50EF0 /* aeskey.c in Sources */,
+				136C489F6BB55F5D2153043A6AA9EDFB /* aestab.c in Sources */,
+				D6C9C061090D70DE0098AE078394F201 /* crypt.c in Sources */,
+				B55539A412E1C79EB4E57FC38F6F6FA7 /* fileenc.c in Sources */,
+				EDF0D008463FF1DBDDCBE4705C68920F /* hmac.c in Sources */,
+				06791AF9FBDF12257F5369063CAB02FA /* ioapi.c in Sources */,
+				360C8A5AF6861E32AE5CE7F4498F7E16 /* ioapi_buf.c in Sources */,
+				9EAF56641CC9A24406AC99AC053EE425 /* ioapi_mem.c in Sources */,
+				A748331615F2FE7A7C51801AC62D7166 /* minishared.c in Sources */,
+				20A2F95DCC9339A9F56F53604E216DFC /* prng.c in Sources */,
+				32B58F0D08A6237F26B59C34E11208E8 /* pwd2key.c in Sources */,
+				E32F5A30B778CDE72CF33D2D1E6FEE76 /* sha1.c in Sources */,
+				1F0CBF534D53B5F5C718B423664A750F /* SSZipArchive-dummy.m in Sources */,
+				9E6E65CD9DECE8DDFF255831A9824351 /* SSZipArchive.m in Sources */,
+				240236F354E90E7CA5DC5C7AE4BEC68F /* unzip.c in Sources */,
+				48257F2E9192971E4732E7D713354978 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F274EECCCA994806221ED2229C7C0C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCD2F3CCB11EC662CE4B8FCE53DACA8 /* Pods-SampleFollowIntegration-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		09D63435B8A5840D22929EFB91E2ABB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B805A19D15CC59C79D88766D6522087 /* Pods-SampleFollowIntegration.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SampleFollowIntegration/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SampleFollowIntegration/Pods-SampleFollowIntegration.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SampleFollowIntegration;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		A2C13B3A16FCBC122CC588BA95709A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 6D1EFCAF3F6FFB1E2BAE67B63605F370 /* SSZipArchive */;
+			targetProxy = 9205B0AB42C7EE3356E28D857247F8C7 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -306,9 +519,45 @@
 			};
 			name = Debug;
 		};
-		1FCDD6F0BB594EF302DC6E2D7B21E75E /* Release */ = {
+		1EA54F44E2C1FC6A557C793BE8AA35F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47E206186438756A3E50DB44B1F18884 /* Pods-SampleFollowIntegration.release.xcconfig */;
+			baseConfigurationReference = 1B805A19D15CC59C79D88766D6522087 /* Pods-SampleFollowIntegration.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleFollowIntegration/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleFollowIntegration/Pods-SampleFollowIntegration.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SampleFollowIntegration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36A53F9266AFF801F6EAA8BBCA38AD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9725B0AAC2791FC93F872FB0CDA2CBF0 /* SSZipArchive.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -322,20 +571,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SampleFollowIntegration/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SampleFollowIntegration/Pods-SampleFollowIntegration.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SampleFollowIntegration;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -386,9 +632,87 @@
 			};
 			name = Release;
 		};
+		A13A834F33F29805330A2F0FAA8E95F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E206186438756A3E50DB44B1F18884 /* Pods-SampleFollowIntegration.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleFollowIntegration/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleFollowIntegration/Pods-SampleFollowIntegration.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SampleFollowIntegration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4C12844FA78CF70244960026CB37B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9725B0AAC2791FC93F872FB0CDA2CBF0 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00C9AB0C5725952A99B8ABCFEE50F4D9 /* Build configuration list for PBXNativeTarget "Pods-SampleFollowIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA54F44E2C1FC6A557C793BE8AA35F9 /* Debug */,
+				A13A834F33F29805330A2F0FAA8E95F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -398,11 +722,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E54BF87EF5D74A4B519BC09A5F47BE8 /* Build configuration list for PBXNativeTarget "Pods-SampleFollowIntegration" */ = {
+		36BE6D16E33971FC6D0CD147C87BF9A2 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09D63435B8A5840D22929EFB91E2ABB1 /* Debug */,
-				1FCDD6F0BB594EF302DC6E2D7B21E75E /* Release */,
+				E4C12844FA78CF70244960026CB37B63 /* Debug */,
+				36A53F9266AFF801F6EAA8BBCA38AD47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
